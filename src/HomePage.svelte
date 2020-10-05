@@ -1,194 +1,78 @@
 <script>
+    import Foobar from "./Foobar.svelte";
+    let svgSize = "24";
 </script>
 
-<nav>
-	<div class="logo">Shopico</div>
-	<ul class="flex">
-		<li>Home</li>
-		<li>catalog</li>
-		<li>Contacts</li>
-		<li>Faqs</li>
-	</ul>
-	<ul class="flex">
-		<li>login</li>
-		<li>heart</li>
-		<li>cart</li>
-	</ul>
+<style>
+    .container {
+        @apply max-w-6xl mx-auto;
+    }
+</style>
+
+<nav class="container">
+    <div class="flex items-center space-x-8 text-gray-700 my-8 px-2">
+        <div class=" text-4xl text-teal-400 font-medium">Shopico</div>
+        <div class="flex-grow lg:pr-16">
+            <ul class=" grid grid-flow-col max-w-md ml-auto place-items-center">
+                <li class="capitalize text-lg"><a href="#home"> Home</a></li>
+                <li class="capitalize text-lg">
+                    <a href="#catalog"> catalog</a>
+                </li>
+                <li class="capitalize text-lg">
+                    <a href="#contact"> Contacts</a>
+                </li>
+                <li class="capitalize text-lg"><a href="#faqs"> Faqs</a></li>
+            </ul>
+        </div>
+
+        <ul class=" flex justify-between items-center space-x-4">
+            <a href="#profile" class="">
+                <svg
+                    width={svgSize}
+                    height={svgSize}
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    class=""><path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
+            </a>
+            <a href="#heart" class="">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={svgSize}
+                    height={svgSize}
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    class=""><path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
+            </a>
+            <a href="#cart" class="">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    width={svgSize}
+                    height={svgSize}
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                </svg>
+            </a>
+        </ul>
+    </div>
 </nav>
+
 <main>
-	<section id="hero" class="">
-		<div class="left">
-			<h1>hello! what would you like to buy?</h1>
-			<p>
-				Search between millions of products. Molestias blanditiis ipsa
-				non, dolore praesentium, optio beatae perferendis vitae
-				cupiditate repellendus reiciendis accusantium!
-			</p>
-			<button
-				id="cta-btn"
-				class="text-white bg-teal-400 py-3 px-12 rounded-full font-medium">Shop
-				now</button>
-		</div>
-		<div><img src="holder.js/400x500" alt="" /></div>
-	</section>
-	<section id="promotions" class="flex">
-		<div>
-			<h3>Summer collections</h3>
-			<p>Techno minimial light</p>
-			<button>Shop now</button>
-			<img src="holder.js/80x100?random=yes" alt="" />
-		</div>
-		<div>
-			<h3>new collections</h3>
-			<p>Redox white chair</p>
-			<button>Shop now</button>
-			<img src="holder.js/80x100?random=yes" alt="" />
-		</div>
-		<div>
-			<h3>Trending products</h3>
-			<p>Techno minimial light</p>
-			<button>Shop now</button>
-			<img src="holder.js/80x100?random=yes" alt="" />
-		</div>
-	</section>
-	<section id="how-works" class="flex">
-		<h1>How it works</h1>
-		<div>
-			<img src="holder.js/50x50" alt="" />
-			<h5>Search</h5>
-			<p>Lorem ipsum dolor sit amet consectetur libero.</p>
-		</div>
-		<div>
-			<img src="holder.js/50x50" alt="" />
-			<h5>Compare</h5>
-			<p>Lorem ipsum dolor sit amet consectetur libero.</p>
-		</div>
-		<div>
-			<img src="holder.js/50x50" alt="" />
-			<h5>Withdraw</h5>
-			<p>Lorem ipsum dolor sit amet consectetur libero.</p>
-		</div>
-		<div>
-			<img src="holder.js/50x50" alt="" />
-			<h5>Cashack</h5>
-			<p>Lorem ipsum dolor sit amet consectetur libero.</p>
-		</div>
-	</section>
-	<section id="popular">
-		<h1>Popular items</h1>
-		<div class="flex">
-			<div>
-				<img src="" alt="" />
-				<div>$100</div>
-				<div>5 stars</div>
-				<div>Pottery Vase</div>
-			</div>
-			<div>
-				<img src="" alt="" />
-				<div>$100</div>
-				<div>5 stars</div>
-				<div>Pottery Vase</div>
-			</div>
-			<div>
-				<img src="" alt="" />
-				<div>$100</div>
-				<div>5 stars</div>
-				<div>Pottery Vase</div>
-			</div>
-		</div>
-
-		<button
-			class="text-white bg-teal-400 py-3 px-12 rounded-full font-medium">See
-			all</button>
-	</section>
-	<section id="features">
-		<h1>Our key features</h1>
-		<div class="flex">
-			<div class="card">
-				<div>logo</div>
-				<h3>Easy to use</h3>
-				<p>Every Lorem ipsum dolor sit amet.</p>
-			</div>
-			<div class="card">
-				<div>logo</div>
-				<h3>Wide Choice</h3>
-				<p>Every Lorem ipsum dolor sit amet.</p>
-			</div>
-			<div class="card">
-				<div>logo</div>
-				<h3>Price Comparison</h3>
-				<p>Every Lorem ipsum dolor sit amet.</p>
-			</div>
-			<div class="card">
-				<div>logo</div>
-				<h3>Cashback</h3>
-				<p>Every Lorem ipsum dolor sit amet.</p>
-			</div>
-		</div>
-	</section>
-	<section id="payment-methods">
-		<h1>Using Conveneient methods</h1>
-		<div class="flex space-x-3">
-			<div>Paypal</div>
-			<div>Visa</div>
-			<div>amazon Giftcard</div>
-			<div>MasterCard</div>
-			<div>Moneygram</div>
-		</div>
-	</section>
-	<article id="promo" class="">
-		<h1>50% OFF interier Collection</h1>
-		<p>Free shipping over $125 for internationl orders</p>
-		<a href="#">Discover now</a>
-		<img src="holder.js/300x200" alt="" />
-	</article>
-	<footer>
-		<div class="flex">
-			<div>
-				<div>Contact</div>
-				<div>Shopico, New Jersey, USA</div>
-				<div>info@somesite.com</div>
-				<div>+456 112 444</div>
-				<div>
-					<span>f</span>
-					<span>t</span>
-					<span>g+</span>
-					<span>in</span>
-				</div>
-			</div>
-			<div>
-				<div>Links</div>
-
-				<div>About us</div>
-				<div>faq</div>
-				<div>Location</div>
-				<div>Affliates</div>
-				<div>Contact</div>
-			</div>
-			<div>
-				<div>My Account</div>
-
-				<div>My Account</div>
-				<div>discount</div>
-				<div>returns</div>
-				<div>Orders history</div>
-				<div>Order tracking</div>
-			</div>
-			<div>
-				<div>newsletter</div>
-
-				<input type="email" placeholder="Your email address" />
-				<div>
-					<span>Terms and condtions</span>
-					<span>Policy</span>
-					<span>Map</span>
-				</div>
-			</div>
-		</div>
-		<aside
-			id="copyright"
-			class="text-center bg-teal-400 py-5 text-white text-sm">
-			Copyright © 2020.com. All rights reserved.
-		</aside>
-	</footer>
+    <!-- <Foobar /> -->
 </main>
