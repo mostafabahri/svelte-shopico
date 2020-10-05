@@ -15,6 +15,9 @@ module.exports = {
     },
     variants: {},
     plugins: [],
+    corePlugins: {
+        container: false,
+    },
     future: {
         // purgeLayersByDefault: true,
         // removeDeprecatedGapUtilities: true,

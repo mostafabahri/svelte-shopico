@@ -1,41 +1,6 @@
 <script>
 </script>
 
-	<section id="hero" class="">
-		<div class="left">
-			<h1>hello! what would you like to buy?</h1>
-			<p>
-				Search between millions of products. Molestias blanditiis ipsa
-				non, dolore praesentium, optio beatae perferendis vitae
-				cupiditate repellendus reiciendis accusantium!
-			</p>
-			<button
-				id="cta-btn"
-				class="text-white bg-teal-400 py-3 px-12 rounded-full font-medium">Shop
-				now</button>
-		</div>
-		<div><img src="holder.js/400x500" alt="" /></div>
-	</section>
-	<section id="promotions" class="flex">
-		<div>
-			<h3>Summer collections</h3>
-			<p>Techno minimial light</p>
-			<button>Shop now</button>
-			<img src="holder.js/80x100?random=yes" alt="" />
-		</div>
-		<div>
-			<h3>new collections</h3>
-			<p>Redox white chair</p>
-			<button>Shop now</button>
-			<img src="holder.js/80x100?random=yes" alt="" />
-		</div>
-		<div>
-			<h3>Trending products</h3>
-			<p>Techno minimial light</p>
-			<button>Shop now</button>
-			<img src="holder.js/80x100?random=yes" alt="" />
-		</div>
-	</section>
 	<section id="how-works" class="flex">
 		<h1>How it works</h1>
 		<div>
