@@ -1,29 +1,6 @@
 <script>
 </script>
 
-	<section id="how-works" class="flex">
-		<h1>How it works</h1>
-		<div>
-			<img src="holder.js/50x50" alt="" />
-			<h5>Search</h5>
-			<p>Lorem ipsum dolor sit amet consectetur libero.</p>
-		</div>
-		<div>
-			<img src="holder.js/50x50" alt="" />
-			<h5>Compare</h5>
-			<p>Lorem ipsum dolor sit amet consectetur libero.</p>
-		</div>
-		<div>
-			<img src="holder.js/50x50" alt="" />
-			<h5>Withdraw</h5>
-			<p>Lorem ipsum dolor sit amet consectetur libero.</p>
-		</div>
-		<div>
-			<img src="holder.js/50x50" alt="" />
-			<h5>Cashack</h5>
-			<p>Lorem ipsum dolor sit amet consectetur libero.</p>
-		</div>
-	</section>
 	<section id="popular">
 		<h1>Popular items</h1>
 		<div class="flex">

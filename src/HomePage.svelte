@@ -1,21 +1,15 @@
 <script>
-    import Hero from "./Hero.svelte";
     import Navbar from "./Navbar.svelte";
+    import Hero from "./Hero.svelte";
+    import HowWorks from "./HowWorks.svelte";
 
     import Foobar from "./Foobar.svelte";
 </script>
 
-<style>
-    :global(.container) {
-        @apply max-w-6xl;
-        @apply mx-auto;
-        @apply px-2;
-    }
-</style>
-
 <Navbar />
 
-<main>
+<main class="text-gray-800 mb-40">
     <Hero />
+    <HowWorks />
     <!-- <Foobar /> -->
 </main>
