@@ -21,6 +21,7 @@
         "tailwindcss": "^1.8.10"
     },
     "dependencies": {
+        "@storybook/cli": "^6.0.26",
         "sirv-cli": "^1.0.0"
     }
 }
