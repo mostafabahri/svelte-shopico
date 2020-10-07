@@ -39,9 +39,9 @@
                         src="holder.js/50x50?theme=vine"
                         alt=""
                         class="mx-auto" />
-                    <h5 class="font-semibold text-xl mt-6 mb-2 capitalize">
+                    <h3 class="font-semibold text-xl mt-6 mb-2 capitalize">
                         {title}
-                    </h5>
+                    </h3>
                     <p class="text-gray-600">
                         By typing a keyword or scan the product barcode.
                     </p>

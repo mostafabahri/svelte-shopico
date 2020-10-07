@@ -1,33 +1,5 @@
 <script>
 </script>
-
-	<section id="popular">
-		<h1>Popular items</h1>
-		<div class="flex">
-			<div>
-				<img src="" alt="" />
-				<div>$100</div>
-				<div>5 stars</div>
-				<div>Pottery Vase</div>
-			</div>
-			<div>
-				<img src="" alt="" />
-				<div>$100</div>
-				<div>5 stars</div>
-				<div>Pottery Vase</div>
-			</div>
-			<div>
-				<img src="" alt="" />
-				<div>$100</div>
-				<div>5 stars</div>
-				<div>Pottery Vase</div>
-			</div>
-		</div>
-
-		<button
-			class="text-white bg-teal-400 py-3 px-12 rounded-full font-medium">See
-			all</button>
-	</section>
 	<section id="features">
 		<h1>Our key features</h1>
 		<div class="flex">

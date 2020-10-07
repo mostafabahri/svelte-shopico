@@ -1,10 +1,10 @@
 <script>
+
     import Navbar from "./Navbar.svelte";
     import Hero from "./Hero.svelte";
     import HowWorks from "./HowWorks.svelte";
     import PopularItems from "./PopularItems.svelte";
-
-    import Foobar from "./Foobar.svelte";
+    import KeyFeatures from "./KeyFeatures.svelte";
 </script>
 
 <Navbar />
@@ -13,5 +13,5 @@
     <Hero />
     <HowWorks />
     <PopularItems />
-    <!-- <Foobar /> -->
+    <KeyFeatures />
 </main>
