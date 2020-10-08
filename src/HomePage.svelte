@@ -4,6 +4,7 @@
     import HowWorks from "./HowWorks.svelte";
     import PopularItems from "./PopularItems.svelte";
     import KeyFeatures from "./KeyFeatures.svelte";
+    import PaymentMethods from "./PaymentMethods.svelte";
     import PromoCollection from "./PromoCollection.svelte";
     import Footer from "./Footer.svelte";
 </script>
@@ -15,7 +16,7 @@
     <HowWorks />
     <PopularItems />
     <KeyFeatures />
-    <!-- missing payment methods -->
+    <PaymentMethods />
     <PromoCollection />
 </main>
 
