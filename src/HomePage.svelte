@@ -1,15 +1,12 @@
 <script>
-    import PromoCollection from "./PromoCollection.svelte";
-
     import Navbar from "./Navbar.svelte";
     import Hero from "./Hero.svelte";
     import HowWorks from "./HowWorks.svelte";
     import PopularItems from "./PopularItems.svelte";
     import KeyFeatures from "./KeyFeatures.svelte";
+    import PromoCollection from "./PromoCollection.svelte";
+    import Footer from "./Footer.svelte";
 </script>
-
-<style>
-</style>
 
 <Navbar />
 
@@ -18,6 +15,8 @@
     <HowWorks />
     <PopularItems />
     <KeyFeatures />
-
+    <!-- missing payment methods -->
     <PromoCollection />
 </main>
+
+<Footer />
