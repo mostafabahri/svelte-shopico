@@ -1,4 +1,5 @@
 <script>
+    import PromoCollection from "./PromoCollection.svelte";
 
     import Navbar from "./Navbar.svelte";
     import Hero from "./Hero.svelte";
@@ -7,6 +8,9 @@
     import KeyFeatures from "./KeyFeatures.svelte";
 </script>
 
+<style>
+</style>
+
 <Navbar />
 
 <main class="text-gray-800 mb-40">
@@ -14,4 +18,6 @@
     <HowWorks />
     <PopularItems />
     <KeyFeatures />
+
+    <PromoCollection />
 </main>

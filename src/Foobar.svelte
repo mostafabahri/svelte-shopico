@@ -1,30 +1,5 @@
 <script>
 </script>
-	<section id="features">
-		<h1>Our key features</h1>
-		<div class="flex">
-			<div class="card">
-				<div>logo</div>
-				<h3>Easy to use</h3>
-				<p>Every Lorem ipsum dolor sit amet.</p>
-			</div>
-			<div class="card">
-				<div>logo</div>
-				<h3>Wide Choice</h3>
-				<p>Every Lorem ipsum dolor sit amet.</p>
-			</div>
-			<div class="card">
-				<div>logo</div>
-				<h3>Price Comparison</h3>
-				<p>Every Lorem ipsum dolor sit amet.</p>
-			</div>
-			<div class="card">
-				<div>logo</div>
-				<h3>Cashback</h3>
-				<p>Every Lorem ipsum dolor sit amet.</p>
-			</div>
-		</div>
-	</section>
 	<section id="payment-methods">
 		<h1>Using Conveneient methods</h1>
 		<div class="flex space-x-3">
@@ -35,12 +10,6 @@
 			<div>Moneygram</div>
 		</div>
 	</section>
-	<article id="promo" class="">
-		<h1>50% OFF interier Collection</h1>
-		<p>Free shipping over $125 for internationl orders</p>
-		<a href="#">Discover now</a>
-		<img src="holder.js/300x200" alt="" />
-	</article>
 	<footer>
 		<div class="flex">
 			<div>
