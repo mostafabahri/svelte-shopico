@@ -1,6 +1,6 @@
 <article id="promo" class="container">
     <div
-        class="bg-teal-400 text-white grid grid-cols-3 pl-32 py-16 pr-10 rounded-lg">
+        class="bg-teal-400 text-white grid grid-cols-3 pl-32 py-16 pr-10 rounded-2xl">
         <div class="md:col-span-2 flex flex-col justify-around">
             <div class="space-y-4">
                 <h1 class="text-5xl font-semibold">
