@@ -11,7 +11,11 @@ module.exports = {
     },
 
     theme: {
-        extend: {},
+        extend: {
+            borderRadius: {
+                '2xl': '1.5rem'
+            }
+        },
     },
     variants: {
         backgroundColor: ['responsive', 'hover', 'focus', 'group-hover'],
